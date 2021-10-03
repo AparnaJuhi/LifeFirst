@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_services"
+            android:icon="@drawable/ic_menu_services"
+            android:title="Services" />
+        <item
+            android:id="@+id/nav_ourstory"
+            android:icon="@drawable/ic_menu_ourstory"
+            android:title="Our Story" />
+        <item
+            android:id="@+id/nav_aboutus"
+            android:icon="@drawable/ic_menu_aboutus"
+            android:title="About Us" />
+        <item
+            android:id="@+id/nav_contactus_"
+            android:icon="@drawable/ic_menu_contactus"
+            android:title="Contact Us" />
+
+        <item
+            android:id="@+id/nav_joinus"
+            android:icon="@drawable/ic_menu_joinus"
+            android:title="Join Us" />
+    </group>
+</menu>
