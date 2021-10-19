@@ -7,6 +7,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
+import java.lang.reflect.Array;
+import java.util.Scanner;
+
 public class MainActivity extends AppCompatActivity {
 
     //The activity for Splash Screen
