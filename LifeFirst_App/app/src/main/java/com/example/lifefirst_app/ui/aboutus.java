@@ -11,10 +11,12 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 
 import com.example.lifefirst_app.R;
 
 public class aboutus extends Fragment {
+
 
     private AboutusViewModel mViewModel;
 
@@ -26,13 +28,15 @@ public class aboutus extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
         return inflater.inflate(R.layout.aboutus_fragment, container, false);
-    }
 
+
+    }
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
         mViewModel = new ViewModelProvider(this).get(AboutusViewModel.class);
         // TODO: Use the ViewModel
     }
+
 
 }
