@@ -23,7 +23,7 @@ public class HomeFragment extends Fragment {
 
     private HomeViewModel homeViewModel;
     private int[] mImage=new int[]{
-      R.drawable.homepage_first,R.drawable.homepage_second, R.drawable.homepage_third
+      R.drawable.one,R.drawable.two
     };
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {

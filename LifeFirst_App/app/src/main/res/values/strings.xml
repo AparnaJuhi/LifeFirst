@@ -1,4 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <string name="app_name">LifeFirst_App</string>
     <string name="title_activity_homepage">homepage</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
@@ -16,19 +18,25 @@
         Life First came into existence in 2021.
          <br/>
         LIFE FIRST WHERE THE LIFE OF AN INDIVIDUAL IS A TOP PRIORITY.
-         <br/>A RAY OF HOPE AND A HOPE OF LIFE.
-        <b>LIFE FIRST (JAAN HAI TO JAHAANH HAI). YOUR LIFE MATTERS. </b></string>
+     \n    <br/>A RAY OF HOPE AND A HOPE OF LIFE.
+       \n <b>LIFE FIRST (JAAN HAI TO JAHAANH HAI). YOUR LIFE MATTERS. </b></string>
     <string name="describe_two">“To inspire hope and contribute to health and well-being by the best care to every patient through integrated clinical education and research.”
-<b>CARE, ACHIEVE, INNOVATE :</b>
+\n
+        \n
+        <b>CARE, ACHIEVE, INNOVATE :</b>
         Our focus is on providing and improving quality of care,  including patient experience, safety, and outcomes, while embracing innovation to deliver enhanced productivity and improved services.
-<b>Primary Goals :</b>
+\n
+        \n
+        <b>Primary Goals :</b>
+        \n
 To create an environment where the whole community gets sensitized about health.
+        \n
 To ensure the availability of primary health care to each and every individual.
     </string>
 
     <string name="describe_three">
 Our Organization is committed to provide basic amenities in the underserved areas and work as a catalyst for providing sustainable means of livelihood through providing healthcare services, educating, training, capacity building, and empowering the needy sections of the society.
-
+\n
 OUR VISION TO BE A NATIONAL AND INTERNATIONAL LEADER IN HEALTHCARE.
 
 We will ensure that all we provide our patients receive the very best care possible and so our ambition is to provide care that compares with the best.</string>
