@@ -12,14 +12,29 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.example.lifefirst_app.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_aboutus" />
-
+        android:id="@+id/nav_aboutus"
+        android:name="com.example.lifefirst_app.ui.aboutus"
+        android:label="AboutUs"
+        tools:layout="@layout/aboutus_fragment" />
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.example.lifefirst_app.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_contactus" />
+        android:id="@+id/nav_contactus"
+        android:name="com.example.lifefirst_app.ui.contactus"
+        android:label="Contact Us"
+        tools:layout="@layout/contactus_fragment" />
+    <fragment
+        android:id="@+id/nav_joinus"
+        android:name="com.example.lifefirst_app.ui.joinus"
+        android:label="JoinUs"
+        tools:layout="@layout/joinus_fragment" />
+    <fragment
+        android:id="@+id/nav_ourstory"
+        android:name="com.example.lifefirst_app.ui.ourstory"
+        android:label="Our Story"
+        tools:layout="@layout/ourstory_fragment" />
+    <fragment
+        android:id="@+id/nav_services"
+        android:name="com.example.lifefirst_app.ui.services"
+        android:label="Services"
+        tools:layout="@layout/services_fragment" />
+
 </navigation>
