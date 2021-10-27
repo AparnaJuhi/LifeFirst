@@ -16,11 +16,7 @@
         android:name="com.example.lifefirst_app.ui.aboutus"
         android:label="AboutUs"
         tools:layout="@layout/aboutus_fragment" />
-    <fragment
-        android:id="@+id/nav_contactus"
-        android:name="com.example.lifefirst_app.ui.contactus"
-        android:label="Contact Us"
-        tools:layout="@layout/contactus_fragment" />
+
     <fragment
         android:id="@+id/nav_joinus"
         android:name="com.example.lifefirst_app.ui.joinus"
@@ -36,5 +32,10 @@
         android:name="com.example.lifefirst_app.ui.services"
         android:label="Services"
         tools:layout="@layout/services_fragment" />
+    <fragment
+        android:id="@+id/nav_contactus"
+        android:name="com.example.lifefirst_app.ui.contactus"
+        android:label="ContactUs"
+        tools:layout="@layout/contactus_fragment" />
 
 </navigation>

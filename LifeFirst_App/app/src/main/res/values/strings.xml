@@ -9,6 +9,10 @@
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
+
+    <string name="err_name">Enter Valid Name</string>
+    <string name="err_tel">Enter Valid Mobile No.</string>
+    <string name="err_email">Enter Valid Email</string>
     <string name="describe_one">“Life First” provides everything in one platform.
         It is a project which has come forward to help in this COVID-19 crisis.
         Amidst the rise of the COVID-19 cases, Life First has come forward to meet the demand for oxygen supply in our country.

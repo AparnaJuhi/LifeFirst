@@ -1,13 +1,190 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".ui.contactus">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Hello" />
 
-</FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/logo"
+            app:srcCompat="@drawable/logo"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CONTACT DETAILS"
+            android:id="@+id/text_contact"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:paddingTop="20dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/image_contact"
+            android:paddingTop="20dp"
+            app:srcCompat="@drawable/contact_us"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10sp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address: "
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:id="@+id/text_contact_address"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Flat no.G,Mahalaxmi Apartment,73 Rajeshwar Park B/h. State Bank Of India,Beltarodi Road Manish Nagar,Besa, Nagpur.-440037."
+                android:textSize="15dp"
+                android:id="@+id/text_contact_address_details"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10sp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Contact: "
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:id="@+id/text_contact_heading"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="7888009575 , 7126608201"
+                    android:textSize="15dp"
+                    android:id="@+id/text_contact_heading_details"
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10sp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Email Us: "
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:id="@+id/text_email_heading"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="lifefirstmegakit@gmail.com"
+                    android:textSize="15dp"
+                    android:id="@+id/text_email_heading_details"
+                    android:textColor="@color/black"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CONTACT US"
+                android:id="@+id/text_contact_us_heading"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:paddingTop="20dp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Enter First Name"
+                android:background="@drawable/input_shape"
+                android:id="@+id/contact_firstname"
+                android:padding="10dp"
+                android:drawableRight="@drawable/person"
+                android:layout_marginTop="20sp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/input_shape"
+                android:hint="Enter Last Name"
+                android:drawablePadding="10dp"
+                android:id="@+id/contact_lastname"
+                android:padding="10dp"
+                android:layout_marginTop="20sp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/input_shape"
+                android:hint="Enter Email"
+                android:id="@+id/contact_email"
+                android:padding="10dp"
+                android:drawableRight="@drawable/email"
+                android:layout_marginTop="20sp"/>
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Enter Contact No."
+                android:background="@drawable/input_shape"
+                android:id="@+id/contact_contactno"
+                android:drawableRight="@drawable/phone"
+                android:padding="10dp"
+                android:layout_marginTop="20sp"
+                />
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:background="@drawable/input_shape"
+                android:text="SUBMIT"
+                android:textSize="20dp"
+                android:id="@+id/contact_submit"
+                android:layout_marginTop="40sp"
+                android:paddingHorizontal="100dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+
+
+

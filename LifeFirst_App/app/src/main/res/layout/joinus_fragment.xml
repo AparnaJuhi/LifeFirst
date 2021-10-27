@@ -1,13 +1,104 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".ui.joinus">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Hello" />
 
-</FrameLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="left"
+
+        android:padding="20dp">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:srcCompat="@drawable/logo"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/contact"
+            android:text="JOIN US"
+            android:paddingTop="20dp"
+            android:layout_gravity="center"
+            android:textSize="40sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/jointhecommunity"
+            android:text="Join the Community"
+            android:layout_gravity="center"
+            android:textSize="30sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Enter Name"
+            android:background="@drawable/input_shape"
+            android:id="@+id/joinus_firstname"
+            android:padding="10dp"
+            android:drawableRight="@drawable/person"
+            android:layout_marginTop="20sp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/input_shape"
+            android:hint="Last Name"
+            android:drawablePadding="10dp"
+            android:id="@+id/joinus_lastname"
+            android:padding="10dp"
+            android:layout_marginTop="20sp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/input_shape"
+            android:hint="Enter Email"
+            android:id="@+id/joinus_email"
+            android:padding="10dp"
+            android:drawableRight="@drawable/email"
+            android:layout_marginTop="20sp"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Enter Contact No."
+            android:background="@drawable/input_shape"
+            android:id="@+id/joinus_contactno"
+            android:drawableRight="@drawable/phone"
+            android:padding="10dp"
+            android:layout_marginTop="20sp"
+            />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:background="@drawable/input_shape"
+            android:text="SUBMIT"
+            android:textSize="20dp"
+            android:id="@+id/joinus_submit"
+            android:layout_marginTop="40sp"
+            android:paddingHorizontal="100dp"/>
+    </LinearLayout>
+</ScrollView>
